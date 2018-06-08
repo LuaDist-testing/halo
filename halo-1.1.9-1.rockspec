@@ -1,8 +1,17 @@
+-- This file was automatically generated for the LuaDist project.
+
 package = "halo"
-version = "scm-1"
+version = "1.1.9-1"
+-- LuaDist source
 source = {
-    url = "git://github.com/mah0x211/lua-halo.git"
+  tag = "1.1.9-1",
+  url = "git://github.com/LuaDist-testing/halo.git"
 }
+-- Original source
+-- source = {
+--     url = "git://github.com/mah0x211/lua-halo.git",
+--     tag = "v1.1.9"
+-- }
 description = {
     summary = "Simple OOP Library For Lua",
     homepage = "https://github.com/mah0x211/lua-halo",
@@ -23,4 +32,3 @@ build = {
         ['halo.class']      = 'lib/class.lua'
     }
 }
-

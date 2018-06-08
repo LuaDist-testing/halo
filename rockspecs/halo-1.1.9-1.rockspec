@@ -1,26 +1,19 @@
--- This file was automatically generated for the LuaDist project.
-
 package = "halo"
-version = "1.1.8-1"
--- LuaDist source
+version = "1.1.9-1"
 source = {
-  tag = "1.1.8-1",
-  url = "git://github.com/LuaDist-testing/halo.git"
+    url = "git://github.com/mah0x211/lua-halo.git",
+    tag = "v1.1.9"
 }
--- Original source
--- source = {
---     url = "git://github.com/mah0x211/lua-halo.git",
---     tag = "v1.1.8"
--- }
 description = {
     summary = "Simple OOP Library For Lua",
-    homepage = "https://github.com/mah0x211/lua-halo", 
+    homepage = "https://github.com/mah0x211/lua-halo",
     license = "MIT/X11",
     maintainer = "Masatoshi Teruya"
 }
 dependencies = {
     "lua >= 5.1",
-    "util >= 1.3.3"
+    "dump >= 0.1.1",
+    "loadchunk >= 0.1.0",
 }
 build = {
     type = "builtin",
